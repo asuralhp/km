@@ -14,6 +14,9 @@
 ## Extension 
 
 - yzhang.markdown-all-in-one
+- mhutchie.git-graph
+- GitHub.copilot
+- GitHub.copilot-chat
 
 ## Setting
 

@@ -30,3 +30,5 @@
   ```
   brew install git
   ```
+
+  - Show Hidden <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>
