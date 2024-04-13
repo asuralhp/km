@@ -23,6 +23,18 @@ yzhang.markdown-all-in-one
 
 ![basic](basic.png)
 
+## Tips
+
+- \* \+ \- have no difference, you can use for indicating level :
+  ```
+  * Item 1
+    + Item 2
+      - Item 3
+    + Item 4
+  * Item 4
+    + Item 5
+  ```
+
 ## Other
 
 \<kbd>Ctrl\</kbd> + \<kbd>Alt\</kbd> + \<kbd>Space\</kbd>

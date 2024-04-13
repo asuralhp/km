@@ -30,5 +30,11 @@
   ```
   brew install git
   ```
-
+  
   - Show Hidden <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>
+  
+  - ## Setting
+    - Tap 
+      > Trackpad -> Tap to Click -> Checked
+    - Three Finger 
+      > Accessibility -> Trapad Options... -> Drag Option -> Three Finger Drag 

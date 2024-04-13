@@ -22,7 +22,7 @@
 
 
 ## Read
-- All Log `git log --all --decorate --oneline --graph`
+- All Log ADOG `git log --all --decorate --oneline --graph`
 - All Branch `git branch -a`
 - All Remote `git remote -v`
 - Configuration `git config --list`
@@ -32,3 +32,4 @@
 - ![threetreem](threetreem.jpg)
 
 ## Useful Links
+- [Git Branching Visual Learning](https://pcottle.github.io/learnGitBranching/)
