@@ -2,6 +2,7 @@
 
 
 ## Basic
+- Focus URL Bar :  <kbd>Ctrl</kbd> +  <kbd>L</kbd>
 - Focus Search Bar :  <kbd>/</kbd>
 
 - Find : <kbd>Ctrl</kbd> + <kbd>F</kbd> 
