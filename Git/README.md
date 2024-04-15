@@ -22,16 +22,18 @@
     git config --global user.email "asuralhp@gmail.com"
     git config --global user.name "asuralhp"
     ```
-- Initialization : 
+- Clone : `git clone https://github.com/libgit2/libgit2`
+  - Recursive : `git clone --recursive --shallow-submodules https://github.com/libgit2/libgit2`
+- Initialization (Optional if Repo exits): 
     ```
     git init
     git add -A
     git commit -m "Init"
     git branch -M main
     ```
-- Clone : `git clone https://github.com/libgit2/libgit2`
-- Clone Recursive : `git clone --recursive --shallow-submodules https://github.com/libgit2/libgit2`
 
+## Edit
+- Uncommit Last : `git reset --soft HEAD^`
 
 ## Read
 - All Log ADOG : `git log --all --decorate --oneline --graph`
