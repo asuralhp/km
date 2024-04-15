@@ -3,14 +3,25 @@
 
 
 ## Install
-- Windows : `winget install --id Git.Git -e --source winget`
-- MacOS : `brew install git`
+- Windows : 
+    - Git : `winget install --id Git.Git -e --source winget`
+    - Github CLI : `winget install --id=GitHub.cli  -e`
+- MacOS : 
+    - Git : `brew install git`
     - Github CLI : `brew install gh`
-      - login : `gh auth login`
-      - credential : `gh auth setup-git`
+     
 
 ## Setup
-
+- Login :
+    ```
+    gh auth login
+    gh auth setup-git
+    ```
+- Profile :
+    ```
+    git config --global user.email "asuralhp@gmail.com"
+    git config --global user.name "asuralhp"
+    ```
 - Initialization : 
     ```
     git init
