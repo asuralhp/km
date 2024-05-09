@@ -1,6 +1,9 @@
 # Search
 
 
+## Setup
+- Windows : `winget install --id=Google.Chrome  -e`
+
 ## Basic
 - Focus URL Bar :  <kbd>Ctrl</kbd> +  <kbd>L</kbd>
 - Focus Search Bar :  <kbd>/</kbd>

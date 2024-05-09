@@ -1,15 +1,22 @@
 # Visual Studio
 
 ## Hotkeys
+  - Save All Files :  <kbd>Ctrl</kbd> +  <kbd>Shift</kbd> + <kbd>S</kbd> 
   - Debug : <kbd>F5</kbd>
   - Compile active source file : <kbd>Ctrl</kbd> +  <kbd>F7</kbd>
   - Comment :  <kbd>Ctrl</kbd> +  <kbd>K</kbd> , <kbd>C</kbd>
   - Uncomment :  <kbd>Ctrl</kbd> +  <kbd>K</kbd> , <kbd>U</kbd>
+  - Navigate Backwards :  <kbd>Ctrl</kbd> +  <kbd>-</kbd> 
+  - Navigate Forwards :  <kbd>Ctrl</kbd> +  <kbd>Shift</kbd> + <kbd>-</kbd> 
 
 ## Setup
   - Install : `winget install --id=Microsoft.VisualStudio.2022.Community.Preview  -e`
 
 
+## UI
+
+- Properties Window : 
+  ![Properties Window](image.png)
 
 ## CPP Config
   - Solution > Properties
