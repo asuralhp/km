@@ -1,5 +1,7 @@
 # Windows
 
+## Softwares
+  - 7zip : `winget install --id=7zip.7zip  -e`
 
 ## Tools
   - [fast.com](https://fast.com/)
