@@ -1,4 +1,4 @@
-# Search
+# RnD
 
 
 ## Setup
@@ -21,6 +21,14 @@
 - Fullscreen : <kbd>F</kbd> 
 - Captions : <kbd>C</kbd> 
 
+### PyTube
+- Download Youtube Video :
+  ```
+  python3 -m venv path/to/venv
+  source path/to/venv/bin/activate
+  python3 -m pip install pytube
+  pytube "url"
+  ```
 
 ## References 
 
