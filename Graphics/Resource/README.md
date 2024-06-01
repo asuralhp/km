@@ -1,4 +1,4 @@
-# Graphics
+# Resources
 
 ## Useful Links
 
