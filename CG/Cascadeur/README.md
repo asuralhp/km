@@ -25,3 +25,9 @@
 - Move Keyframe <kbd>MClick</kbd>
 - Dulplicate Keyframe <kbd>Shift</kbd> + <kbd>MClick</kbd>
 - Scale Selected Keyframes <kbd>Ctrl</kbd> + <kbd>T</kbd>
+  
+## Tip
+- Reset Pose : 
+  - Box Controller Mode
+  - Menu Bar - Command
+  - T-Pose
