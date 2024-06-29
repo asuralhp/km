@@ -1,5 +1,8 @@
 # Blender
 
+## Configuration
+  - Interface
+    - Python Tips : True
 
 ## Hotkey
   - Cursor Operation : <kbd>Shift</kbd> + <kbd>S</kbd>
