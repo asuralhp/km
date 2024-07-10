@@ -1,4 +1,0 @@
-# CV
-
-## Useful Links
-
