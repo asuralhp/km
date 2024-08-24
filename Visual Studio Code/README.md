@@ -9,7 +9,7 @@
 
 - Split To  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd><-</kbd> /<kbd>-></kbd>
 - Move To <kbd>Alt</kbd> + <kbd><-</kbd> / <kbd>-></kbd>
-
+    - MacOS : <kbd>Ctrl</kbd> / + <kbd>Shift</kbd> + <kbd>-</kbd>
 - Format Document <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd>
 ## Extension 
 
