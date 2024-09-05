@@ -3,7 +3,9 @@
 ## Statistics
 
 ### Tips
-- Covariance vs Correlation : ![alt](./CovariancevsCorrelation.png)
+- Covariance vs Correlation : 
+  - ![CovariancevsCorrelation](./CovariancevsCorrelation.png)
+  - ![CovariancevsCorrelationTable](CovariancevsCorrelationTable.png)
 
 - Uniform Distribution : ![Unif](Unif.png)
 - Uniform Distribution vs Normal Distribution : ![UnifvsNorm](UnifvsNorm.png)

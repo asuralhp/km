@@ -22,7 +22,8 @@ You can have only one directory in a tenant at a time.
 
 
 ## Access 
+- Azure Policy Scope : ![AzurePolicyScope](AzurePolicyScope.png)
 
 - You can also add conditions to specific actions. For example, you can grant John read access to blobs in your subscription only if the blobs are tagged as Project=Blue.
 
-![AccessConditionFlow](AccessConditionFlow.png)
+- ![AccessConditionFlow](AccessConditionFlow.png)
