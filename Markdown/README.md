@@ -34,6 +34,12 @@ yzhang.markdown-all-in-one
   * Item 4
     + Item 5
   ```
+## Table
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1    | Data 1   |
+| Row 2    | Data 2   |
+| Row 3    | Data 3   |
 
 ## Other
 
