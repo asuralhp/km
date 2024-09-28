@@ -9,112 +9,6 @@
 - ![GrowthRate](GrowthRate.png)
 - ![SizeTable](SizeTable.png)
 
-## Algorithmn
-### Recursive
-- 4 Keys
-  - How to define samller problem of same type
-  - How can each call dinimish size
-  - What case of problem can be base case
-  - Can you reach base case
-- Base Case
-  - value for which perform no calls.
-  - every recursive chain MUST reach base case.
-- Recurvsive Call
-  - each call solve an IDENTITICAL and SMALLER problem.
-  - should be defined so that it towards base case, no problem smaller than base case is allowed.
-- Vizualization: ![RecursiveTrace](RecursiveTrace.png)
-#### Binary Search
-- ![BinarySearch](BinarySearch.png)
-- BigO logn : ![BinarySearchBigO](BinarySearchBigO.png)
-
-#### Type 
-- Head Recursion: ![RecursionHead](RecursionHead.png)
-- Tail Recursion: ![RecursionTail](RecursionTail.png)
-- More : [geeksforgeeks types of recursions](https://www.geeksforgeeks.org/types-of-recursions/)
-
-#### Fibonacci Sequence
-![FibonacciCase](FibonacciCase.png)
-```
-def fibonacci(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fibonacci(n - 1) + fibonacci(n - 2)
-```
-- BigO : O(n) (make n recursive calls)
-
-
-![FibonacciTree](FibonacciTree.png)
-- BigO :
-  - Time Complexity: O(n) (Cached) / O(n^2)
-  - Space Complexity: O(n) (Cached) / O(n) (due to the recursion stack)
-#### Power Function
-
-![PowerFunction](PowerFunction.png)
-- Intuition :
-  -  b^100 = b^50 * b^50
-  -  b^101 = b * b^50 * b^50
--  Definition :
-   -  n = 0 -> b^n = 1  
-   -  n > 0 && = even -> b^n/2 * b^n/2
-   -  n > 0 && = odd -> b * b^n/2 * b^n/2
-- Implementation :
-  - recursive :
-    ```
-    def power(x, n):
-        if n == 0:
-            return 1  # Base case: x^0 = 1
-        elif n < 0:
-            return 1 / power(x, -n)  
-        elif n % 2 == 0:
-            half_power = power(x, n // 2)  
-            return half_power * half_power  
-            half_power = power(x, (n - 1) // 2)  
-            return x * half_power * half_power  
-    ```
-  -  recursive simple :
-        ```
-        def power_recursive(x, n):
-            if n == 0:
-                return 1  # Base case: x^0 = 1
-            elif n < 0:
-                return 1 / power_recursive(x, -n) 
-            else:
-                return x * power_recursive(x, n - 1)
-        ``` 
-  - iterative  :
-    ```
-    def power_iterative(x, n):
-        result = 1
-        for _ in range(n):
-            result *= x
-        return result
-    ```
-    
-- BigO :
-  - Time Complexity: O(logn) / O(n) (re. simple) 
-  - Space Complexity: O(logn) / O(n) (re. simple) / O(1) (iterative)
-
-#### Hanoi Tower
-
-```
-def hanoi(n, source, target, auxiliary):
-    if n == 1:
-        print(f"Move disk 1 from {source} to {target}")
-        return
-    hanoi(n - 1, source, auxiliary, target)
-    print(f"Move disk {n} from {source} to {target}")
-    hanoi(n - 1, auxiliary, target, source)
-```
-![HanoiTowerTree](HanoiTowerTree.png)
-![HanoiTower](HanoiTower.gif)
-- Step : 2^n - 1
-- BigO : 
-  - Time Complexity: O(2^n)
-  - Space Complexity: O(n)
-
 
 ## Abstract Data Type
 - collection of data
@@ -616,7 +510,279 @@ def hanoi(n, source, target, auxiliary):
 - but insert/remove on empty must be careful
 ![CircularDoublyLinkedListNoDum](CircularDoublyLinkedListNoDum.png)
 
-#### Sorting
+
+### Tree
+- Abstract model of hierachical structure
+- Parent-Child relation
+- Efficient O(logn)
+- Efficiency depends on height
+
+
+- Terminology :
+- ![TreeTerms](TreeTerms.png)
+  - Root: node without parent (A)
+  - Internal node: node with at least one child (A, B, C, F)
+  - External node (leaf): node wit children (E, I, J, K, G, H, D)
+  - Ancestors of a node: parent, grandparent, grand-grandparent, etc.
+  - Depth of node: no. of ancestors
+  - Height of a tree: max depth of any node (3)
+  - Descendant of a node: child, grandchild,grand-grandchild etc.
+  - Subtree: tree consisting of a node and its descendants
+- Traversal
+  - A traversal (tree walk) visits the nodes of a tree in a systematic manner
+  - ![TreeTraversal](TreeTraversal.png)
+  - Preorder :
+    - In a preorder traversal, a node visited before its descendants
+    ```
+        def preOrder(root):
+            visit(root)
+            for child in root:
+                preOrder(child)
+    ```
+    - Application : print a structured document
+  - Postorder :
+    - In a postorder traversal, a node is visited after its descendants
+    ```
+        def postOrder(root):
+            for child in root:
+                postOrder(child)
+            visit(root)
+    ```
+#### Binary Tree
+- max no. of children = 2
+- ordered child
+- left child + right child
+- Properties node(n), exnode(e), innode(i), height(h):
+  - e = i + 1
+  - n = 2e - 1
+  - h <= i
+  - h <= (n-1)/2
+  - e <= 2^h
+  - h >= lo2ge
+  - h >= lo2g(n+1) - 1
+- Applications:
+  - arithmetic 
+  - expressions decision 
+  - processes searching
+- Traversal 
+  - In-Order : Produces a sorted order of values.
+  - Pre-Order : Useful for copying the tree.
+  - Post-Order : Useful for deleting the tree.
+- Implementation :
+    - Inorder :
+    - This function visits the left subtree, then the current node, and finally the right subtree. This results in a sorted order for a BST.
+        ```
+        def inOrder(root):
+            result.extend(inOrder(root.left))
+            visit(root)
+            result.extend(inOrder(root.right))
+        ```
+
+    - Insertion ：
+        ```
+        def insert(root, value):
+            if root is None:
+                return TreeNode(value)
+            
+            if value < root.value:
+                root.left = insert(root.left, value)
+            elif value > root.value:
+                root.right = insert(root.right, value)
+            
+            return root
+        ```
+
+    -  Deletion :
+        ```
+        def delete(root, value):
+            if root is None:
+                return root
+
+            if value < root.value:
+                root.left = delete(root.left, value)
+            elif value > root.value:
+                root.right = delete(root.right, value)
+            else:
+                # Node with only one child or no child
+                if root.left is None:
+                    return root.right
+                elif root.right is None:
+                    return root.left
+                
+                # Node with two children: Get the inorder successor (smallest in the right subtree)
+                min_larger_node = find_min(root.right)
+                root.value = min_larger_node.value
+                root.right = delete(root.right, min_larger_node.value)
+
+            return root
+
+        def find_min(node):
+            current = node
+            while current.left is not None:
+                current = current.left
+            return current
+        ```
+
+- BigO :
+    
+    | Operation      | Balanced BST | Unbalanced BST |
+    |----------------|--------------|-----------------|
+    | Search         | O(log n)     | O(n)            |
+    | Insertion      | O(log n)     | O(n)            |
+    | Deletion       | O(log n)     | O(n)            |
+    | Traversal      | O(n)         | O(n)            |
+    | Space (Recursive)| O(log n)   | O(n)            |
+
+
+### Graph
+
+
+
+## Algorithmn
+
+### Design
+- Divide and Conquer :
+    - Description: This technique involves dividing a problem into smaller subproblems, solving each subproblem independently, and then combining their solutions to solve the original problem.
+    - Examples: Merge sort, quicksort, binary search, and the Fast Fourier Transform (FFT).
+- Dynamic Programming
+    - Description: This approach solves problems by breaking them down into simpler overlapping subproblems and storing the results of these subproblems to avoid redundant computations.
+    - Examples: Fibonacci sequence, knapsack problem, and shortest path problems (like Dijkstra’s and Bellman-Ford).
+- Greedy Algorithms
+    - Description: Greedy algorithms build a solution piece by piece, always choosing the next piece that offers the most immediate benefit. They do not always produce the optimal solution but can be efficient for certain problems.
+    - Examples: Prim’s and Kruskal’s algorithms for minimum spanning trees, Huffman coding, and activity selection.
+- Backtracking
+    - Description: This technique involves building a solution incrementally and abandoning solutions as soon as it determines that they cannot lead to a valid complete solution. It is often used in constraint satisfaction problems.
+    - Examples: N-Queens problem, Sudoku solver, and permutations of a set.
+- Brute Force
+    - Description: A straightforward approach that tries all possible solutions to find the best one. This method is often simple to implement but can be inefficient for large inputs.
+    - Examples: Traveling salesman problem (TSP) using exhaustive search, and finding all combinations of a set.
+- Branch and Bound
+    - Description: This search algorithm systematically explores all possible solutions while pruning branches that cannot yield better solutions than the best found so far. It is often used in optimization problems.
+    - Examples: Integer programming and traveling salesman problem.
+- Randomized Algorithms
+    - Description: These algorithms make random choices in their logic to achieve good average-case performance. They are often simpler and faster than deterministic algorithms for specific problems.
+    - Examples: Randomized quicksort and Monte Carlo methods.
+- Graph Algorithms
+    - Description: Techniques specifically designed to solve problems related to graphs, including traversal, shortest paths, and minimum spanning trees.
+    - Examples: Depth-first search (DFS), breadth-first search (BFS), Dijkstra’s algorithm, and Kruskal’s algorithm.
+- Sorting Algorithms
+    - Description: Various methods for arranging data in a particular order.
+    - Examples: Quicksort, mergesort, heapsort, and bubblesort.
+- Searching Algorithms
+    - Description: Techniques for finding an element in a data structure.
+    - Examples: Binary search (for sorted arrays) and linear search.
+- Heuristic Methods
+    - Description: Techniques that find satisfactory solutions for complex problems more quickly when classic methods are too slow. Often used in optimization and search problems.
+    - Examples: Genetic algorithms and simulated annealing.
+
+### Recursive
+- 4 Keys
+  - How to define samller problem of same type
+  - How can each call dinimish size
+  - What case of problem can be base case
+  - Can you reach base case
+- Base Case
+  - value for which perform no calls.
+  - every recursive chain MUST reach base case.
+- Recurvsive Call
+  - each call solve an IDENTITICAL and SMALLER problem.
+  - should be defined so that it towards base case, no problem smaller than base case is allowed.
+- Vizualization: ![RecursiveTrace](RecursiveTrace.png)
+#### Binary Search
+- ![BinarySearch](BinarySearch.png)
+- BigO logn : ![BinarySearchBigO](BinarySearchBigO.png)
+
+#### Type 
+- Head Recursion: ![RecursionHead](RecursionHead.png)
+- Tail Recursion: ![RecursionTail](RecursionTail.png)
+- More : [geeksforgeeks types of recursions](https://www.geeksforgeeks.org/types-of-recursions/)
+
+#### Fibonacci Sequence
+![FibonacciCase](FibonacciCase.png)
+```
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+```
+- BigO : O(n) (make n recursive calls)
+
+
+![FibonacciTree](FibonacciTree.png)
+- BigO :
+  - Time Complexity: O(n) (Cached) / O(n^2)
+  - Space Complexity: O(n) (Cached) / O(n) (due to the recursion stack)
+#### Power Function
+
+![PowerFunction](PowerFunction.png)
+- Intuition :
+  -  b^100 = b^50 * b^50
+  -  b^101 = b * b^50 * b^50
+-  Definition :
+   -  n = 0 -> b^n = 1  
+   -  n > 0 && = even -> b^n/2 * b^n/2
+   -  n > 0 && = odd -> b * b^n/2 * b^n/2
+- Implementation :
+  - recursive :
+    ```
+    def power(x, n):
+        if n == 0:
+            return 1  # Base case: x^0 = 1
+        elif n < 0:
+            return 1 / power(x, -n)  
+        elif n % 2 == 0:
+            half_power = power(x, n // 2)  
+            return half_power * half_power  
+            half_power = power(x, (n - 1) // 2)  
+            return x * half_power * half_power  
+    ```
+  -  recursive simple :
+        ```
+        def power_recursive(x, n):
+            if n == 0:
+                return 1  # Base case: x^0 = 1
+            elif n < 0:
+                return 1 / power_recursive(x, -n) 
+            else:
+                return x * power_recursive(x, n - 1)
+        ``` 
+  - iterative  :
+    ```
+    def power_iterative(x, n):
+        result = 1
+        for _ in range(n):
+            result *= x
+        return result
+    ```
+    
+- BigO :
+  - Time Complexity: O(logn) / O(n) (re. simple) 
+  - Space Complexity: O(logn) / O(n) (re. simple) / O(1) (iterative)
+
+#### Hanoi Tower
+
+```
+def hanoi(n, source, target, auxiliary):
+    if n == 1:
+        print(f"Move disk 1 from {source} to {target}")
+        return
+    hanoi(n - 1, source, auxiliary, target)
+    print(f"Move disk {n} from {source} to {target}")
+    hanoi(n - 1, auxiliary, target, source)
+```
+![HanoiTowerTree](HanoiTowerTree.png)
+![HanoiTower](HanoiTower.gif)
+- Step : 2^n - 1
+- BigO : 
+  - Time Complexity: O(2^n)
+  - Space Complexity: O(n)
+
+
+
+### Sorting
 - compare function:
   ```
     def cmp(a, b):
@@ -626,7 +792,7 @@ def hanoi(n, source, target, auxiliary):
             b = t
         return a, b
   ```
-##### Bubble Sort
+#### Bubble Sort
 ![BubbleSort](BubbleSort.png)
   -  Number of pass-throughs (steps) = number of elements - 1 
   -  After m iterations, the rightmost m elements are sorted into their correct place
@@ -654,7 +820,7 @@ def hanoi(n, source, target, auxiliary):
                 break
         return arr
     ```
-##### Parallel Odd Even Sort 
+#### Parallel Odd Even Sort 
 ![ParallelOddEvenSort](ParallelOddEvenSort.png)
 - parallel processing
 - good for smaller sequences
@@ -678,7 +844,7 @@ def hanoi(n, source, target, auxiliary):
         return arr
     ```
     
-##### Selection Sort
+#### Selection Sort
 ![SelectionSort](SelectionSort.png)
 - One swap per pass -> less swaps (O(n))
 - Implementation :
@@ -697,7 +863,7 @@ def hanoi(n, source, target, auxiliary):
 - BigO: n2 (N(N - 1)/2)
 
 
-##### Insertion Sort
+#### Insertion Sort
 ![InsertionSort](InsertionSort.gif)
 - Implementation :
     ```
@@ -718,7 +884,122 @@ def hanoi(n, source, target, auxiliary):
 - Average: O(n2)/2
 - Best case: O(n)
 
-##### Other Info
+
+#### Shell Sort
+- Insertion sort has fewer comparisons than Selection sort 
+- Selection sort has fewer moves‐swaps than Insertion sort 
+- => IDEA: compare/shift non‐neighbouring elements
+
+- On average shell sort has fewer comparisons than Selection sort and Bubble sort, 
+- and fewer moves than Insertion sort
+- Shell sort is based on the Insertion sort algorithm,
+- => BUT: instead of shifting elements many times by one step, it makes larger moves
+
+- Implementation :
+  - Divide the list into lots of smaller sublists
+  - i gap to i sublists
+  - Each of which is sorted using an insertion sort
+  - Then repeat sorting with reduced gap (=> fewer, but larger sublists) until gap is 1
+    ![ShellSort](ShellSort.gif)
+    ```
+    # dual
+    def insertion_sort_with_gap(arr, gap):
+        n = len(arr)
+        for i in range(gap, n):
+            temp = arr[i]
+            j = i
+            while j >= gap and arr[j - gap] > temp:
+                arr[j] = arr[j - gap]
+                j -= gap
+            arr[j] = temp
+
+    def shell_sort(arr):
+        n = len(arr)
+        gap = n // 2
+        while gap > 0:
+            insertion_sort_with_gap(arr, gap)
+            gap //= 2
+        return arr
+    
+    # single
+    def shell_sort(arr):
+        n = len(arr)
+        gap = n // 2
+        while gap > 0:
+            for i in range(gap, n):
+                temp = arr[i]
+                j = i
+                while j >= gap and arr[j - gap] > temp:
+                    arr[j] = arr[j - gap]
+                    j -= gap
+                arr[j] = temp
+            gap //= 2
+        return arr
+    ```
+- Gap :
+  -  A default option for gap sizes is 2 ‐1, i.e. [..., 31, 15, 7, 3,1]
+  - Research in the optimal gap sequence is ongoing
+  - A often quoted empirical derived gap sequence is [701, 301, 132, 57, 23, 10, 4, 1]
+- BigO:
+  - Worst Case: O(n2)
+  - Average Case: O(n3/2)
+  - Best Case: O(nlogn)
+  - Improved Gap Sequences: O(nlo2gn) (Using more sophisticated gap sequences, such as the Hibbard or Sedgewick sequences)
+
+#### Merge Sort
+- Recursive
+- Base case : empty / one item
+- Cut the list in half
+- Sort each half
+- Merge the two sorted halves
+
+- Implementation :
+    - ![MergeSort](MergeSort.gif)
+    - ![MergeSortDebug](MergeSortDebug.png)
+    - ![MergeSortTree](MergeSortTree.png)
+    ```
+    def merge_sort(arr):
+        if len(arr) > 1:
+            mid = len(arr) // 2
+            left_half = arr[:mid]
+            right_half = arr[mid:]
+
+            merge_sort(left_half)
+            merge_sort(right_half)
+
+            i = j = k = 0
+
+            while i < len(left_half) and j < len(right_half):
+                if left_half[i] < right_half[j]:
+                    arr[k] = left_half[i]
+                    i += 1
+                else:
+                    arr[k] = right_half[j]
+                    j += 1
+                k += 1
+
+            while i < len(left_half):
+                arr[k] = left_half[i]
+                i += 1
+                k += 1
+
+            while j < len(right_half):
+                arr[k] = right_half[j]
+                j += 1
+                k += 1
+
+        return arr
+    ```
+- BigO :
+  - O(nlogn)
+  - The time for sorting a list of size 1 is constant, i.e. T(1)=1
+  - The time for sorting a list of size n is the time of sorting the two
+halves plus the time for merging, i.e. T(n) = 2*T(n/2)+n
+  - Can prove: T(n) = n + n log n
+
+#### Summary
+![MergeSortBigO](MergeSortBigO.png)
+
 - Radix sort was invented in the late 1800s for physically sorting punched cards for the US census. It’s still used today in software because it’s very fast on numeric and string data.
 - Merge sort appears to have been invented by John von Neumann to validate his stored-program computer model (the von Neumann architecture). It works well as a sorting algorithm for low-memory computers processing data that’s streamed through the machine, hence its popularity in the 1960s and 1970s. And it’s a great testbed for divide-and-conquer techniques, making it popular in algorithms classes.
 - Insertion sort seems to have been around forever. Even though it’s slow in the worst case, it’s fantastic on small inputs and mostly-sorted data and is used as a building block in other fast sorting algorithms.
@@ -730,3 +1011,108 @@ def hanoi(n, source, target, auxiliary):
 - Thorup and Yao’s O(n sqrt(log log n))-time integer sorting algorithm was designed to probe the theoretical limits of efficient algorithms using word-level parallelism.
 - Cycle sort derives from the study of permutations in group theory and is designed to minimize the number of memory writes made when sorting the list.
 - Heapsort is noteworthy for being in-place and yet fast in practice. It’s based on the idea of implicitly representing a nontrivial data structure.
+
+
+### Searching
+- ? exist
+- ? location
+- ? how many match
+- multiple time to search in a single collection
+
+
+- Application 
+  - parsing strings (searching characters)
+  - database queries (records filtering)
+  - finding files on disk
+
+#### Linear Search
+- Go through all items and check if any equals the key
+- needs to go through all elements in the worst case
+- implements an early exit
+
+- Implementation : 
+    ```
+    single
+    def linear_search(arr, target):
+        for index, value in enumerate(arr):
+            if value == target:
+                return index
+        return -1
+    
+    # multiple
+    def linear_search_multiple(arr, target):
+        indices = []
+        for index, value in enumerate(arr):
+            if value == target:
+                indices.append(index)
+        return indices
+    ```
+- BigO :
+  - Worst case : O(n)
+  - Average : O(n)/2
+  - Best : O(1)
+  
+- Linear Search Sorted :
+    ```
+    def linear_search_sorted(arr, target):
+        for index, value in enumerate(arr):
+            if value == target:
+                return index
+            if value > target: 
+                break
+        return -1
+    ```
+
+#### Binary Search
+- Perform on sorted list
+- Method of choice when it comes to searching
+
+- Implementation :
+    ```
+    # Sorted List
+    def binary_search_list(arr, target):
+        left, right = 0, len(arr) - 1
+        
+        while left <= right:
+            mid = (left + right) // 2
+            
+            if arr[mid] == target:
+                return mid
+            elif arr[mid] < target:
+                left = mid + 1
+            else:
+                right = mid - 1
+                
+        return -1
+    ```
+    ![BinarySearch.gif](BinarySearch.gif)
+    ```
+    class TreeNode:
+        def __init__(self, value):
+            self.value = value
+            self.left = None
+            self.right = None
+
+        def insert_bst(root, value):
+            if root is None:
+                return TreeNode(value)
+            if value < root.value:
+                root.left = insert_bst(root.left, value)
+            else:
+                root.right = insert_bst(root.right, value)
+            return root
+
+        def binary_search_bst(root, target):
+            if root is None:
+                return None
+            if root.value == target:
+                return root
+            elif target < root.value:
+                return binary_search_bst(root.left, target)
+            else:
+                return binary_search_bst(root.right, target)
+
+    ```
+    
+- BigO : O(logn)
+- List need less overhead and memory, Tree has faster insert/delete (O(nlog) < O(n))
