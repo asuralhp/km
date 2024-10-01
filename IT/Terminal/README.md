@@ -3,8 +3,9 @@
 ## Command
 
 ### Common
-- Make directory if exists with no error: `mkdir -p ./bin/`
-- Move directory(all content) to path: `mv /path/to/source/folder /path/to/destination`
+- Make directory if exists with no error : `mkdir -p ./bin/`
+- Move directory(all content) to path : `mv /path/to/source/folder /path/to/destination`
+- Rename file :  `mv oldFile newFile`
 
 ## Shell
 ![shell_type](shell_type.jpeg)
