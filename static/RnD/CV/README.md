@@ -2,8 +2,8 @@
 
 ## Human Vision
 
-- ![HumanFOV](HumanFOV.png)
-- ![HumanFOV2](HumanFOV2.png)
+- ![HumanFOV](static/HumanFOV.png)
+- ![HumanFOV2](static/HumanFOV2.png)
 
 ## Camera
-- ![CameraFL](CameraFL.png)
+- ![CameraFL](static/CameraFL.png)

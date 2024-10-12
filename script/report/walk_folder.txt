@@ -1,4 +1,4 @@
-Execute :  False
+Execute :  True
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/Markdown
@@ -6,6 +6,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/Markdown
    Move From :  /Users/leolau/Documents/CODE/km/static/Markdown/basic.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Markdown/static
    Word From : basic.png To : static/basic.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/IT/IS
@@ -13,18 +15,28 @@ Parent :  /Users/leolau/Documents/CODE/km/static/IT/IS
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/IS/IS.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/IS/static
    Word From : IS.png To : static/IS.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/IS/TPS.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/IS/static
    Word From : TPS.png To : static/TPS.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/IS/MIS.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/IS/static
    Word From : MIS.png To : static/MIS.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/IS/DSS.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/IS/static
    Word From : DSS.png To : static/DSS.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/IS/SystemDevelopement.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/IS/static
    Word From : SystemDevelopement.png To : static/SystemDevelopement.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/IT/Terminal
@@ -32,12 +44,18 @@ Parent :  /Users/leolau/Documents/CODE/km/static/IT/Terminal
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Terminal/shell_type.jpeg
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Terminal/static
    Word From : shell_type.jpeg To : static/shell_type.jpeg
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Terminal/bash_diagram.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Terminal/static
    Word From : bash_diagram.png To : static/bash_diagram.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Terminal/zsh_diagram.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Terminal/static
    Word From : zsh_diagram.png To : static/zsh_diagram.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/IT/Cloud
@@ -45,6 +63,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/IT/Cloud
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/XaaS.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/static
    Word From : XaaS.png To : static/XaaS.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure
@@ -52,24 +72,38 @@ Parent :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/AzureResourceHierarchy.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/static
    Word From : AzureResourceHierarchy.png To : static/AzureResourceHierarchy.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/AzureResourceHierachy2.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/static
    Word From : AzureResourceHierachy2.png To : static/AzureResourceHierachy2.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/AzureResourceHierarchy3.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/static
    Word From : AzureResourceHierarchy3.png To : static/AzureResourceHierarchy3.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/AzureResourceHierarchy4.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/static
    Word From : AzureResourceHierarchy4.png To : static/AzureResourceHierarchy4.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/AzureAdmin.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/static
    Word From : AzureAdmin.png To : static/AzureAdmin.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/AzurePolicyScope.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/static
    Word From : AzurePolicyScope.png To : static/AzurePolicyScope.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/AccessConditionFlow.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/IT/Cloud/Azure/static
    Word From : AccessConditionFlow.png To : static/AccessConditionFlow.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/CS/Python
@@ -77,6 +111,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/CS/Python
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/Python/jupyter_keymap.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/Python/static
    Word From : jupyter_keymap.png To : static/jupyter_keymap.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/CS/StateMachine
@@ -84,6 +120,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/CS/StateMachine
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/StateMachine/AutomataTheory.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/StateMachine/static
    Word From : AutomataTheory.png To : static/AutomataTheory.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/CS/DSA
@@ -91,135 +129,223 @@ Parent :  /Users/leolau/Documents/CODE/km/static/CS/DSA
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/GrowthRate.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : GrowthRate.png To : static/GrowthRate.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/SizeTable.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : SizeTable.png To : static/SizeTable.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/StackOrder.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : StackOrder.png To : static/StackOrder.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/BracketMatching.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : BracketMatching.png To : static/BracketMatching.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/PostfixCalcultion.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : PostfixCalcultion.png To : static/PostfixCalcultion.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/HotPotato.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : HotPotato.png To : static/HotPotato.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/CircularQueue.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : CircularQueue.png To : static/CircularQueue.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/CircularQueueEnq.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : CircularQueueEnq.png To : static/CircularQueueEnq.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/CircularQueueDeq.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : CircularQueueDeq.png To : static/CircularQueueDeq.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/RoundRobinScheduler.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : RoundRobinScheduler.png To : static/RoundRobinScheduler.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/Deque.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : Deque.png To : static/Deque.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/NodeInsert.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : NodeInsert.png To : static/NodeInsert.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/NodeDelete.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : NodeDelete.png To : static/NodeDelete.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/LinkedListBigO.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : LinkedListBigO.png To : static/LinkedListBigO.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/UnorederedVSOrderedBigO.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : UnorederedVSOrderedBigO.png To : static/UnorederedVSOrderedBigO.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/SinglyLinkedListBigO.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : SinglyLinkedListBigO.png To : static/SinglyLinkedListBigO.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/DoublyLinkedListOps.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : DoublyLinkedListOps.png To : static/DoublyLinkedListOps.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/CircularDoublyLinkedListSimple.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : CircularDoublyLinkedListSimple.png To : static/CircularDoublyLinkedListSimple.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/CircularDoublyLinkedList.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : CircularDoublyLinkedList.png To : static/CircularDoublyLinkedList.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/CircularDoublyLinkedListEmpty.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : CircularDoublyLinkedListEmpty.png To : static/CircularDoublyLinkedListEmpty.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/CircularDoublyLinkedListBigO.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : CircularDoublyLinkedListBigO.png To : static/CircularDoublyLinkedListBigO.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/CircularDoublyLinkedListNoDum.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : CircularDoublyLinkedListNoDum.png To : static/CircularDoublyLinkedListNoDum.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/TreeTerms.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : TreeTerms.png To : static/TreeTerms.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/TreeTraversal.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : TreeTraversal.png To : static/TreeTraversal.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/RecursiveTrace.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : RecursiveTrace.png To : static/RecursiveTrace.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/BinarySearch.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : BinarySearch.png To : static/BinarySearch.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/BinarySearchBigO.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : BinarySearchBigO.png To : static/BinarySearchBigO.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/RecursionHead.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : RecursionHead.png To : static/RecursionHead.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/RecursionTail.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : RecursionTail.png To : static/RecursionTail.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/FibonacciCase.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : FibonacciCase.png To : static/FibonacciCase.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/FibonacciTree.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : FibonacciTree.png To : static/FibonacciTree.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/PowerFunction.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : PowerFunction.png To : static/PowerFunction.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/HanoiTowerTree.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : HanoiTowerTree.png To : static/HanoiTowerTree.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/HanoiTower.gif
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : HanoiTower.gif To : static/HanoiTower.gif
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/BubbleSort.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : BubbleSort.png To : static/BubbleSort.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/ParallelOddEvenSort.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : ParallelOddEvenSort.png To : static/ParallelOddEvenSort.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/SelectionSort.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : SelectionSort.png To : static/SelectionSort.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/InsertionSort.gif
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : InsertionSort.gif To : static/InsertionSort.gif
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/ShellSort.gif
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : ShellSort.gif To : static/ShellSort.gif
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/MergeSort.gif
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : MergeSort.gif To : static/MergeSort.gif
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/MergeSortDebug.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : MergeSortDebug.png To : static/MergeSortDebug.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/MergeSortTree.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : MergeSortTree.png To : static/MergeSortTree.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/MergeSortBigO.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : MergeSortBigO.png To : static/MergeSortBigO.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DSA/BinarySearch.gif
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DSA/static
    Word From : BinarySearch.gif To : static/BinarySearch.gif
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern
@@ -227,42 +353,68 @@ Parent :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/SingletonUML.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : SingletonUML.png To : static/SingletonUML.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/FactoryUML.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : FactoryUML.png To : static/FactoryUML.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/FactoryMethod.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : FactoryMethod.png To : static/FactoryMethod.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/AbstractFactory.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : AbstractFactory.png To : static/AbstractFactory.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/FacadePattern.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : FacadePattern.png To : static/FacadePattern.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/ProxyPattern.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : ProxyPattern.png To : static/ProxyPattern.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/ProxyVSFacaed.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : ProxyVSFacaed.png To : static/ProxyVSFacaed.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/ObserverPattern.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : ObserverPattern.png To : static/ObserverPattern.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/CommandPattern.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : CommandPattern.png To : static/CommandPattern.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/TemplateMethodPattern.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : TemplateMethodPattern.png To : static/TemplateMethodPattern.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/StateDesignPattern.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : StateDesignPattern.png To : static/StateDesignPattern.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/MVC.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : MVC.png To : static/MVC.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/MVCPattern.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CS/DesignPattern/static
    Word From : MVCPattern.png To : static/MVCPattern.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/RnD
@@ -270,6 +422,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/RnD
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/GoogleSearchCheatSheet.jpg
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/static
    Word From : GoogleSearchCheatSheet.jpg To : static/GoogleSearchCheatSheet.jpg
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/RnD/ML
@@ -277,18 +431,28 @@ Parent :  /Users/leolau/Documents/CODE/km/static/RnD/ML
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/ML/MLvsDL.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/ML/static
    Word From : MLvsDL.png To : static/MLvsDL.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/ML/SLvsUSL.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/ML/static
    Word From : SLvsUSL.png To : static/SLvsUSL.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/ML/PLvsAL.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/ML/static
    Word From : PLvsAL.png To : static/PLvsAL.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/ML/BLvsOL.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/ML/static
    Word From : BLvsOL.png To : static/BLvsOL.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/ML/./FeaturevsLabel.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/ML/static
    Word From : ./FeaturevsLabel.png To : static/./FeaturevsLabel.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/RnD/CV
@@ -296,12 +460,18 @@ Parent :  /Users/leolau/Documents/CODE/km/static/RnD/CV
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/CV/HumanFOV.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/CV/static
    Word From : HumanFOV.png To : static/HumanFOV.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/CV/HumanFOV2.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/CV/static
    Word From : HumanFOV2.png To : static/HumanFOV2.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/CV/CameraFL.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/CV/static
    Word From : CameraFL.png To : static/CameraFL.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/RnD/Physics
@@ -309,6 +479,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/RnD/Physics
    Move From :  /Users/leolau/Documents/CODE/km/static/RnD/Physics/SpeedVSVelocity.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/RnD/Physics/static
    Word From : SpeedVSVelocity.png To : static/SpeedVSVelocity.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/Maths
@@ -316,6 +488,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/Maths
    Move From :  /Users/leolau/Documents/CODE/km/static/Maths/Roadmap.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Maths/static
    Word From : Roadmap.png To : static/Roadmap.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/Maths/PA
@@ -323,21 +497,33 @@ Parent :  /Users/leolau/Documents/CODE/km/static/Maths/PA
    Move From :  /Users/leolau/Documents/CODE/km/static/Maths/PA/./CovariancevsCorrelation.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Maths/PA/static
    Word From : ./CovariancevsCorrelation.png To : static/./CovariancevsCorrelation.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/Maths/PA/CovariancevsCorrelationTable.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Maths/PA/static
    Word From : CovariancevsCorrelationTable.png To : static/CovariancevsCorrelationTable.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/Maths/PA/Unif.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Maths/PA/static
    Word From : Unif.png To : static/Unif.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/Maths/PA/UnifvsNorm.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Maths/PA/static
    Word From : UnifvsNorm.png To : static/UnifvsNorm.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/Maths/PA/./ProbabilityDistributions.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Maths/PA/static
    Word From : ./ProbabilityDistributions.png To : static/./ProbabilityDistributions.png
+File moved to: tar_path
+execute!!
    Move From :  /Users/leolau/Documents/CODE/km/static/Maths/PA/PosissonDistribution.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Maths/PA/static
    Word From : PosissonDistribution.png To : static/PosissonDistribution.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/CE
@@ -345,6 +531,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/CE
    Move From :  /Users/leolau/Documents/CODE/km/static/CE/StackHeap.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/CE/static
    Word From : StackHeap.png To : static/StackHeap.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/Visual Studio
@@ -352,6 +540,8 @@ Parent :  /Users/leolau/Documents/CODE/km/static/Visual Studio
    Move From :  /Users/leolau/Documents/CODE/km/static/Visual Studio/image.png
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Visual Studio/static
    Word From : image.png To : static/image.png
+File moved to: tar_path
+execute!!
 
 
 Parent :  /Users/leolau/Documents/CODE/km/static/Git
@@ -359,3 +549,5 @@ Parent :  /Users/leolau/Documents/CODE/km/static/Git
    Move From :  /Users/leolau/Documents/CODE/km/static/Git/threetreem.jpg
      Move To Folder :  /Users/leolau/Documents/CODE/km/static/Git/static
    Word From : threetreem.jpg To : static/threetreem.jpg
+File moved to: tar_path
+execute!!

@@ -2,5 +2,5 @@
 
 
 ## Dynamics
-- Speed vs Velocity : ![SpeedVSVelocity](SpeedVSVelocity.png) 
+- Speed vs Velocity : ![SpeedVSVelocity](static/SpeedVSVelocity.png) 
 

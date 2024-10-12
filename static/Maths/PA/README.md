@@ -4,17 +4,17 @@
 
 ### Tips
 - Covariance vs Correlation : 
-  - ![CovariancevsCorrelation](./CovariancevsCorrelation.png)
-  - ![CovariancevsCorrelationTable](CovariancevsCorrelationTable.png)
+  - ![CovariancevsCorrelation](static/./CovariancevsCorrelation.png)
+  - ![CovariancevsCorrelationTable](static/CovariancevsCorrelationTable.png)
 
-- Uniform Distribution : ![Unif](Unif.png)
-- Uniform Distribution vs Normal Distribution : ![UnifvsNorm](UnifvsNorm.png)
+- Uniform Distribution : ![Unif](static/Unif.png)
+- Uniform Distribution vs Normal Distribution : ![UnifvsNorm](static/UnifvsNorm.png)
 - II is 1/0 indicator function
 - Φ is the cdf of the Gaussian
 
 ### Probability Distribution
 
-- Probability Distributions : ![alt](./ProbabilityDistributions.png)
+- Probability Distributions : ![alt](static/./ProbabilityDistributions.png)
 - A probability distribution function (PDF), There are two types of PDFs:
   - probability mass function (PMF)
   - probability density function (PDF)
@@ -33,4 +33,4 @@ The y-axis of the PDF represents the probability density at the corresponding x-
 - A probability distribution that is used to show how many times an event is likely to occur over a
 specified period.
 - $$P(X = k) = \frac{e^{-\lambda}\lambda^k}{k!}$$
-- ![PosissonDistribution](PosissonDistribution.png)
+- ![PosissonDistribution](static/PosissonDistribution.png)

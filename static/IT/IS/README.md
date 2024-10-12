@@ -37,7 +37,7 @@ additional value beyond the value of the individual facts.
 - Action : Information + Decision = Action
 
 ## Architecture
-![IS](IS.png)
+![IS](static/IS.png)
 
 - Input : 
 In information systems, input is the activity of gathering and capturing
@@ -94,7 +94,7 @@ process data into information.
 Transaction processing system an organized collection of
 people, procedures, software, databases, and devices used to record
 completed business transactions.
-![TPS](TPS.png)
+![TPS](static/TPS.png)
 
 
 ### MIS
@@ -103,12 +103,12 @@ people, procedures, software, databases, and devices that provides
 routine information to managers and decision makers.
 - focuses on operational efficiency.
 - Marketing, production, finance, and other functional areas are
-supported by MISs and linked through a common database. ![MIS](MIS.png)
+supported by MISs and linked through a common database. ![MIS](Mstatic/IS.png)
 
 ### DSS
 - Decision Support Systems is an organized collection of people,
 procedures, software, databases, and devices that support problem-specific decision making.
-![DSS](DSS.png)
+![DSS](static/DSS.png)
 
 #### DBMS
 A Database Management System (DBMS) is software that allows users to define, create, maintain, and control access to databases. 
@@ -143,7 +143,7 @@ Whereas an MIS helps an organization “do things right,” a DSS helps a manage
 
 
 ## System Developement
-![SystemDevelopement](SystemDevelopement.png)
+![SystemDevelopement](static/SystemDevelopement.png)
 - Systems investigation : to gain a clear understanding of the problem to be solved or opportunity to be addressed.
 - Systems analysis : defines the problems and opportunities of the existing system
 - Systems design :

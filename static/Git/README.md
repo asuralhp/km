@@ -48,7 +48,7 @@
 - Unstage All: `git reset`
 
 ## References
-- ![threetreem](threetreem.jpg)
+- ![threetreem](static/threetreem.jpg)
 
 ## Useful Links
 - [Git Branching Visual Learning](https://pcottle.github.io/learnGitBranching/)

@@ -21,7 +21,7 @@ yzhang.markdown-all-in-one
 
 ## Basic 
 
-![basic](basic.png)
+![basic](static/basic.png)
 
 ## Tips
 

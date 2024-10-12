@@ -2,4 +2,4 @@
 
 ## Composition
 - Stack and Heap :
-  ![StackHeap](StackHeap.png)
+  ![StackHeap](static/StackHeap.png)

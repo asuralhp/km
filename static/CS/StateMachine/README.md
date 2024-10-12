@@ -4,4 +4,4 @@
 ## Tips
 
 ### Automata Theory
-- ![AutomataTheory](AutomataTheory.png)
+- ![AutomataTheory](static/AutomataTheory.png)

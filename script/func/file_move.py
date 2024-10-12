@@ -9,7 +9,7 @@ def move_file_to_folder(file_path, tar_path):
         
         # Move the file
         shutil.move(file_path, tar_path)
-        print(f'File moved to: tar_path')
+        # print(f'File moved to: tar_path')
     except FileNotFoundError:
         print(f'Error: The file {file_path} does not exist.')
     except PermissionError:

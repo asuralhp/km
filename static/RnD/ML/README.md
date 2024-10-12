@@ -2,14 +2,14 @@
 
 ### Tips
 - Machine Learning vs Deep Learning : 
-    ![MLvsDL](MLvsDL.png)
-- Supervised Learning vs Unsupervised Learning  : ![SLvsUSL](SLvsUSL.png)
+    ![MLvsDL](static/MLvsDL.png)
+- Supervised Learning vs Unsupervised Learning  : ![SLvsUSL](static/SLvsUSL.png)
 - Active Learning vs Passive Learning : 
-    ![PLvsAL](PLvsAL.png)
+    ![PLvsAL](static/PLvsAL.png)
 - Batch Learning vs Online Learning : 
-    ![BLvsOL](BLvsOL.png)
+    ![BLvsOL](static/BLvsOL.png)
 - Feature vs Label  : 
-    ![FeaturevsLabel](./FeaturevsLabel.png)
+    ![FeaturevsLabel](static/./FeaturevsLabel.png)
 
 ## Useful Links
 

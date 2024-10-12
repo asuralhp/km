@@ -3,7 +3,7 @@
 ## Tips
 
 - Roadmap :
-  ![Roadmap](Roadmap.png)
+  ![Roadmap](static/Roadmap.png)
 
 ## Tools
 - [MathGPT]([https://](https://math-gpt.org))

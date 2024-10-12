@@ -6,8 +6,8 @@
 ## BigO
 - worst case
 - choose dominant terms 
-- ![GrowthRate](GrowthRate.png)
-- ![SizeTable](SizeTable.png)
+- ![GrowthRate](static/GrowthRate.png)
+- ![SizeTable](static/SizeTable.png)
 
 
 ## Abstract Data Type
@@ -45,11 +45,11 @@
     ```
 - BigO :
   - push/pop :  O(1)
-- ![StackOrder](StackOrder.png)
+- ![StackOrder](static/StackOrder.png)
 - Application :
   - Checking for Balanced Braces
-  - Bracket Matching ![BracketMatching](BracketMatching.png)
-  - Postfix Calcultion ![PostfixCalcultion](PostfixCalcultion.png)
+  - Bracket Matching ![BracketMatching](static/BracketMatching.png)
+  - Postfix Calcultion ![PostfixCalcultion](static/PostfixCalcultion.png)
 
 
 #### Queue
@@ -82,7 +82,7 @@
             return len(self.queue)
     ``` 
 - Hot Potato
-![HotPotato](HotPotato.png) 
+![HotPotato](static/HotPotato.png) 
     ```
     def hot_potato(players, num_passes):
         while len(players) > 1:
@@ -91,9 +91,9 @@
             eliminated = players.dequeue()
         return players.peek()
     ```
-- Circular Queue : ![CircularQueue](CircularQueue.png)
-  - ![CircularQueueEnq](CircularQueueEnq.png)
-  - ![CircularQueueDeq](CircularQueueDeq.png)
+- Circular Queue : ![CircularQueue](static/CircularQueue.png)
+  - ![CircularQueueEnq](static/CircularQueueEnq.png)
+  - ![CircularQueueDeq](static/CircularQueueDeq.png)
   ```
   class CircularQueue:
     def __init__(self, size):
@@ -134,7 +134,7 @@
         return self.queue[self.front]
   ```
 - Round Robin Scheduler
-  ![RoundRobinScheduler](RoundRobinScheduler.png) 
+  ![RoundRobinScheduler](static/RoundRobinScheduler.png) 
     ```
     class Process:
         def __init__(self, name, burst_time):
@@ -178,7 +178,7 @@
 - ordered collection 
 - added or removed on both front or back
 - does not require LIFO or FIFO orderings
-- ![Deque](Deque.png)
+- ![Deque](static/Deque.png)
 - Operations :
   - add_front()
   - add_rear()
@@ -240,7 +240,7 @@
         self.next = new_next
     ```
 - Node Insert :
-![NodeInsert](NodeInsert.png)
+![NodeInsert](static/NodeInsert.png)
     ```
     def insert(head, new_node, position):
     if position == 0:
@@ -261,7 +261,7 @@
     return head
     ```
 - Node Delete :
-![NodeDelete](NodeDelete.png)
+![NodeDelete](static/NodeDelete.png)
     ```
     def delete(head, value):
         if head is None:
@@ -319,7 +319,7 @@
     ```
 
 - BigO :
-![LinkedListBigO](LinkedListBigO.png)
+![LinkedListBigO](static/LinkedListBigO.png)
 
 
 - Ordered List :
@@ -359,7 +359,7 @@
 
 - Unordered vs Ordered :
   - Sorted in terms of characteristics
-  - add != insert ![UnorederedVSOrderedBigO](UnorederedVSOrderedBigO.png) 
+  - add != insert ![UnorederedVSOrderedBigO](static/UnorederedVSOrderedBigO.png) 
 
 ##### Singly Linked List
   - Head, also Tail referencing to last Node
@@ -392,7 +392,7 @@
         self.count -= 1
     ```
 - BigO : 
-  ![SinglyLinkedListBigO](SinglyLinkedListBigO.png)
+  ![SinglyLinkedListBigO](Singlystatic/LinkedListBigO.png)
 
 
 ##### Doubly Linked List
@@ -401,7 +401,7 @@
 - next node
 
 - Operations :
-    ![DoublyLinkedListOps](DoublyLinkedListOps.png)
+    ![DoublyLinkedListOps](static/DoublyLinkedListOps.png)
 
 - Implementation :
   - insert:
@@ -498,17 +498,17 @@
 - prev node of dummy head = last node
 - next of the last node 
 - Structure :
-    ![CircularDoublyLinkedListSimple](CircularDoublyLinkedListSimple.png)
-    ![CircularDoublyLinkedList](CircularDoublyLinkedList.png)
-    ![CircularDoublyLinkedListEmpty](CircularDoublyLinkedListEmpty.png)
+    ![CircularDoublyLinkedListSimple](static/CircularDoublyLinkedListSimple.png)
+    ![CircularDoublyLinkedList](static/CircularDoublyLinkedList.png)
+    ![CircularDoublyLinkedListEmpty](static/CircularDoublyLinkedListEmpty.png)
     
 - BigO :
-  ![CircularDoublyLinkedListBigO](CircularDoublyLinkedListBigO.png)
+  ![CircularDoublyLinkedListBigO](CircularDoublystatic/LinkedListBigO.png)
 
 ##### Circular Doubly Linked List Without Dummy
 - less one node, bit more memory and simpler
 - but insert/remove on empty must be careful
-![CircularDoublyLinkedListNoDum](CircularDoublyLinkedListNoDum.png)
+![CircularDoublyLinkedListNoDum](static/CircularDoublyLinkedListNoDum.png)
 
 
 ### Tree
@@ -519,7 +519,7 @@
 
 
 - Terminology :
-- ![TreeTerms](TreeTerms.png)
+- ![TreeTerms](static/TreeTerms.png)
   - Root: node without parent (A)
   - Internal node: node with at least one child (A, B, C, F)
   - External node (leaf): node wit children (E, I, J, K, G, H, D)
@@ -530,7 +530,7 @@
   - Subtree: tree consisting of a node and its descendants
 - Traversal
   - A traversal (tree walk) visits the nodes of a tree in a systematic manner
-  - ![TreeTraversal](TreeTraversal.png)
+  - ![TreeTraversal](static/TreeTraversal.png)
   - Preorder :
     - In a preorder traversal, a node visited before its descendants
     ```
@@ -687,18 +687,18 @@
 - Recurvsive Call
   - each call solve an IDENTITICAL and SMALLER problem.
   - should be defined so that it towards base case, no problem smaller than base case is allowed.
-- Vizualization: ![RecursiveTrace](RecursiveTrace.png)
+- Vizualization: ![RecursiveTrace](static/RecursiveTrace.png)
 #### Binary Search
-- ![BinarySearch](BinarySearch.png)
-- BigO logn : ![BinarySearchBigO](BinarySearchBigO.png)
+- ![BinarySearch](static/BinarySearch.png)
+- BigO logn : ![BinarySearchBigO](static/BinarySearchBigO.png)
 
 #### Type 
-- Head Recursion: ![RecursionHead](RecursionHead.png)
-- Tail Recursion: ![RecursionTail](RecursionTail.png)
+- Head Recursion: ![RecursionHead](static/RecursionHead.png)
+- Tail Recursion: ![RecursionTail](static/RecursionTail.png)
 - More : [geeksforgeeks types of recursions](https://www.geeksforgeeks.org/types-of-recursions/)
 
 #### Fibonacci Sequence
-![FibonacciCase](FibonacciCase.png)
+![FibonacciCase](static/FibonacciCase.png)
 ```
 def fibonacci(n):
     if n <= 0:
@@ -711,13 +711,13 @@ def fibonacci(n):
 - BigO : O(n) (make n recursive calls)
 
 
-![FibonacciTree](FibonacciTree.png)
+![FibonacciTree](static/FibonacciTree.png)
 - BigO :
   - Time Complexity: O(n) (Cached) / O(n^2)
   - Space Complexity: O(n) (Cached) / O(n) (due to the recursion stack)
 #### Power Function
 
-![PowerFunction](PowerFunction.png)
+![PowerFunction](static/PowerFunction.png)
 - Intuition :
   -  b^100 = b^50 * b^50
   -  b^101 = b * b^50 * b^50
@@ -773,8 +773,8 @@ def hanoi(n, source, target, auxiliary):
     print(f"Move disk {n} from {source} to {target}")
     hanoi(n - 1, auxiliary, target, source)
 ```
-![HanoiTowerTree](HanoiTowerTree.png)
-![HanoiTower](HanoiTower.gif)
+![HanoiTowerTree](static/HanoiTowerTree.png)
+![HanoiTower](static/HanoiTower.gif)
 - Step : 2^n - 1
 - BigO : 
   - Time Complexity: O(2^n)
@@ -793,7 +793,7 @@ def hanoi(n, source, target, auxiliary):
         return a, b
   ```
 #### Bubble Sort
-![BubbleSort](BubbleSort.png)
+![BubbleSort](static/BubbleSort.png)
   -  Number of pass-throughs (steps) = number of elements - 1 
   -  After m iterations, the rightmost m elements are sorted into their correct place
   - Largest elements tend to ‘bubble-up’ to the right
@@ -821,7 +821,7 @@ def hanoi(n, source, target, auxiliary):
         return arr
     ```
 #### Parallel Odd Even Sort 
-![ParallelOddEvenSort](ParallelOddEvenSort.png)
+![ParallelOddEvenSort](static/ParallelOddEvenSort.png)
 - parallel processing
 - good for smaller sequences
 - Implementation :
@@ -845,7 +845,7 @@ def hanoi(n, source, target, auxiliary):
     ```
     
 #### Selection Sort
-![SelectionSort](SelectionSort.png)
+![SelectionSort](static/SelectionSort.png)
 - One swap per pass -> less swaps (O(n))
 - Implementation :
     ```
@@ -864,7 +864,7 @@ def hanoi(n, source, target, auxiliary):
 
 
 #### Insertion Sort
-![InsertionSort](InsertionSort.gif)
+![InsertionSort](static/InsertionSort.gif)
 - Implementation :
     ```
     def insertion_sort(arr):
@@ -900,7 +900,7 @@ def hanoi(n, source, target, auxiliary):
   - i gap to i sublists
   - Each of which is sorted using an insertion sort
   - Then repeat sorting with reduced gap (=> fewer, but larger sublists) until gap is 1
-    ![ShellSort](ShellSort.gif)
+    ![ShellSort](static/ShellSort.gif)
     ```
     # dual
     def insertion_sort_with_gap(arr, gap):
@@ -954,9 +954,9 @@ def hanoi(n, source, target, auxiliary):
 - Merge the two sorted halves
 
 - Implementation :
-    - ![MergeSort](MergeSort.gif)
-    - ![MergeSortDebug](MergeSortDebug.png)
-    - ![MergeSortTree](MergeSortTree.png)
+    - ![MergeSort](static/MergeSort.gif)
+    - ![MergeSortDebug](static/MergeSortDebug.png)
+    - ![MergeSortTree](static/MergeSortTree.png)
     ```
     def merge_sort(arr):
         if len(arr) > 1:
@@ -998,7 +998,7 @@ halves plus the time for merging, i.e. T(n) = 2*T(n/2)+n
   - Can prove: T(n) = n + n log n
 
 #### Summary
-![MergeSortBigO](MergeSortBigO.png)
+![MergeSortBigO](static/MergeSortBigO.png)
 
 - Radix sort was invented in the late 1800s for physically sorting punched cards for the US census. It’s still used today in software because it’s very fast on numeric and string data.
 - Merge sort appears to have been invented by John von Neumann to validate his stored-program computer model (the von Neumann architecture). It works well as a sorting algorithm for low-memory computers processing data that’s streamed through the machine, hence its popularity in the 1960s and 1970s. And it’s a great testbed for divide-and-conquer techniques, making it popular in algorithms classes.
@@ -1085,7 +1085,7 @@ halves plus the time for merging, i.e. T(n) = 2*T(n/2)+n
                 
         return -1
     ```
-    ![BinarySearch.gif](BinarySearch.gif)
+    ![static/BinarySearch.gif](static/BinarySearch.gif)
     ```
     class TreeNode:
         def __init__(self, value):

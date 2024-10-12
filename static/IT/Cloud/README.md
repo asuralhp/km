@@ -2,5 +2,5 @@
 
 
 # Services
-![XaaS](XaaS.png)
+![XaaS](static/XaaS.png)
 

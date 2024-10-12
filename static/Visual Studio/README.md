@@ -16,7 +16,7 @@
 ## UI
 
 - Properties Window : 
-  ![Properties Window](image.png)
+  ![Properties Window](static/image.png)
 
 ## CPP Config
   - Solution > Properties
