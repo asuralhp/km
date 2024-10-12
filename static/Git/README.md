@@ -32,15 +32,20 @@
     git branch -M main
     ```
 
-## Edit
-- Uncommit Last : `git reset --soft HEAD^`
 
 ## Read
+- Check Status : `git status`
+- Commit Log One Line : `git log --oneline`
 - All Log ADOG : `git log --all --decorate --oneline --graph`
 - All Branch : `git branch -a`
 - All Remote : `git remote -v`
 - Configuration : `git config --list`
   - Show Origin : `git config --list --show-origin`
+
+## Reverse
+- Uncommit Last : `git reset --soft HEAD^`
+- Unstage File: `git reset <file>`
+- Unstage All: `git reset`
 
 ## References
 - ![threetreem](threetreem.jpg)
