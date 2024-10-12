@@ -1,6 +1,10 @@
 # Visual Studio Code
 
+## Learn
+[learngitbranching](https://learngitbranching.js.org/)
 
+## Overview
+![MainActions](static/MainActions.png)
 
 ## Install
 - Windows : 
@@ -44,8 +48,13 @@
 
 ## Reverse
 - Uncommit Last : `git reset --soft HEAD^`
-- Unstage File: `git reset <file>`
-- Unstage All: `git reset`
+- Unstage File: `git reset <commit>`
+  - ![GitReset](static/GitReset.png)
+  - ![GitResetPost](static/GitResetPost.png)
+- Unstage All: `git restore --staged`
+  - ![GitRestore](static/GitRestore.png)
+- Commit to Reset: `git revert`
+  - ![GitRevert](static/GitRevert.png)
 
 ## References
 - ![threetreem](static/threetreem.jpg)
@@ -56,7 +65,7 @@
 ## Github
 - Limit : 
   Product                    | Maximum file size
-  ----------------------------|------------------:
+  ---------------------------|------------------:
   GitHub Free                |            2 GB
   GitHub Pro                 |            2 GB
   GitHub Team                |            4 GB

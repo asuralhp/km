@@ -14,6 +14,10 @@
 - collection of data
 - set of operations on that data
 
+### Overview
+- 8 Data Structure for DB
+![EightDBDS](static/EightDBDS.png)
+
 ### Linear 
 - ordered
 - can add or remove into particular position
