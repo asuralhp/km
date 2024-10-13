@@ -22,7 +22,7 @@ def write_dicts_to_csv(data, csv_file):
         # Write the rows
         writer.writerows(data)
 
-    print(f'Data written to {csv_file}')
+    print(f'report written to {csv_file}')
 
 # Example usage
 def read_csv_to_listOfDict(csv_file):

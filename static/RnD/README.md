@@ -32,7 +32,7 @@
 
 ## References 
 
-![basic](static/GoogleSearchCheatSheet.jpg)
+![GoogleSearchCheatSheet](static/GoogleSearchCheatSheet.jpg)
 
 
 

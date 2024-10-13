@@ -9,11 +9,11 @@ You can have only one directory in a tenant at a time.
 
 ![AzureResourceHierarchy](static/AzureResourceHierarchy.png)
 
-![AzureResourceHierarchy2](static/AzureResourceHierachy2.png)
+![AzureResourceHierachy2](static/AzureResourceHierachy2.png)
 
 ![AzureResourceHierarchy3](static/AzureResourceHierarchy3.png)
 
-![IT/Cloud/Azure/AzureResourceHierarchy4](static/AzureResourceHierarchy4.png)
+![AzureResourceHierarchy4](static/AzureResourceHierarchy4.png)
 
 
 ## User

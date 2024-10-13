@@ -396,7 +396,7 @@
         self.count -= 1
     ```
 - BigO : 
-  ![SinglyLinkedListBigO](Singlystatic/LinkedListBigO.png)
+  ![SinglyLinkedListBigO](Singlystatic/SinglyLinkedListBigO.png)
 
 
 ##### Doubly Linked List
@@ -507,7 +507,7 @@
     ![CircularDoublyLinkedListEmpty](static/CircularDoublyLinkedListEmpty.png)
     
 - BigO :
-  ![CircularDoublyLinkedListBigO](CircularDoublystatic/LinkedListBigO.png)
+  ![CircularDoublyLinkedListBigO](static/CircularDoublyLinkedListBigO.png)
 
 ##### Circular Doubly Linked List Without Dummy
 - less one node, bit more memory and simpler
@@ -1089,7 +1089,7 @@ halves plus the time for merging, i.e. T(n) = 2*T(n/2)+n
                 
         return -1
     ```
-    ![static/BinarySearch.gif](static/BinarySearch.gif)
+    ![BinarySearch](static/BinarySearch.gif)
     ```
     class TreeNode:
         def __init__(self, value):

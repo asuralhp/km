@@ -1,5 +1,6 @@
-*__
+__pycache__
 
-script/.venv/
-script/.venv/*
+.venv/
+.venv/*
+**/report/*
 .DS_Store

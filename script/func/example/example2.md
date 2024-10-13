@@ -1,3 +1,0 @@
-new_wordnew_wordnew_word
-new_wordnew_word
-new_word

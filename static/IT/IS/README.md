@@ -103,7 +103,7 @@ people, procedures, software, databases, and devices that provides
 routine information to managers and decision makers.
 - focuses on operational efficiency.
 - Marketing, production, finance, and other functional areas are
-supported by MISs and linked through a common database. ![MIS](Mstatic/IS.png)
+supported by MISs and linked through a common database. ![MIS](static/MIS.png)
 
 ### DSS
 - Decision Support Systems is an organized collection of people,

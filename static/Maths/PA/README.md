@@ -14,7 +14,7 @@
 
 ### Probability Distribution
 
-- Probability Distributions : ![alt](static/./ProbabilityDistributions.png)
+- Probability Distributions : ![ProbabilityDistributions](static/ProbabilityDistributions.png)
 - A probability distribution function (PDF), There are two types of PDFs:
   - probability mass function (PMF)
   - probability density function (PDF)

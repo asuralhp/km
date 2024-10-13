@@ -39,7 +39,7 @@
 - It provides a surrogate for another object so that you can control access to the original object
 - It is used as a layer or interface to support distributed access
 - It adds delegation and protects the real component from undesired impact
-- ![alt text](static/ProxyPattern.png)
+- ![ProxyPattern](static/ProxyPattern.png)
   - Proxy: 
     > This maintains a reference that lets the Proxy access the real object. It provides an interface identical to the  Subject so that Proxy can substitute the real subject. Proxies are also responsible for creating and deleting the RealSubject. 
   - Subject: 

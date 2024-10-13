@@ -1,7 +1,10 @@
 # Visual Studio Code
 
 ## Learn
-[learngitbranching](https://learngitbranching.js.org/)
+[Learn Git Branching](https://learngitbranching.js.org/)
+
+## Blog
+[Pragmatic Git](https://blog.git-init.com/)
 
 ## Overview
 ![MainActions](static/MainActions.png)
@@ -12,8 +15,10 @@
     - Github CLI : `winget install --id=GitHub.cli  -e`
 - MacOS : 
     - Git : `brew install git`
-    - Github CLI : `brew install gh`
-     
+    - Github CLI : `brew install gh`     
+- Linux:
+  - Git: `sudo apt install git` (Debian-based)
+  - GitHub CLI: `sudo apt install gh` (Debian-based)
 
 ## Setup
 - Login :
@@ -48,7 +53,10 @@
 
 ## Reverse
 - Uncommit Last : `git reset --soft HEAD^`
-- Unstage File: `git reset <commit>`
+- Unstage File
+  - If you want to keep your changes in your working directory but unstage them: `git reset <commit_hash>`
+  - `--soft` : If you want to keep your changes staged (in the index) but move the HEAD to a previous commit
+  - `--hard` : If you want to keep your changes in your working directory but unstage them
   - ![GitReset](static/GitReset.png)
   - ![GitResetPost](static/GitResetPost.png)
 - Unstage All: `git restore --staged`
@@ -56,7 +64,24 @@
 - Commit to Reset: `git revert`
   - ![GitRevert](static/GitRevert.png)
 
-## References
+## TroubleShoot
+### Detached head 
+![DettachedHead](static/DettachedHead.png)
+> it means you are no longer on a branch, you have checked out a single commit in the history (in this case the commit previous to HEAD, i.e. HEAD^).
+
+#### If you want to keep your changes associated with the detached HEAD
+1. Run `git branch tmp` - this will save your changes in a new branch called tmp.
+2. Run `git checkout master`
+3. If you would like to incorporate the changes you made into `master`, run `git merge tmp` from the `master` branch. You should be on the `master` branch after running `git checkout master`.
+
+#### If you want to delete your changes associated with the detached HEAD
+1. You only need to checkout the branch you were on, e.g. `git checkout master`
+
+#### Want to restore it in working directory to the state it is in the index, don't delete the file, just do
+1. `git checkout -- path/to/foo`
+
+
+## Structure
 - ![threetreem](static/threetreem.jpg)
 
 ## Useful Links

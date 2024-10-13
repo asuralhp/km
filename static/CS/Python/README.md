@@ -5,5 +5,5 @@
 
 
 ## Jupyter
-  - Cheat Sheet : ![CheatSheet](static/jupyter_keymap.png)
+  - Cheat Sheet : ![jupyter_keymap](static/jupyter_keymap.png)
 
