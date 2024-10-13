@@ -23,7 +23,7 @@ yzhang.markdown-all-in-one
 
 ![basic](static/basic.png)
 
-## Tips
+## List
 
 - \* \+ \- have no difference, you can use for indicating level :
   ```
@@ -34,12 +34,19 @@ yzhang.markdown-all-in-one
   * Item 4
     + Item 5
   ```
+## Checkbox
+- [x] Mars
+- [ ] Jupiter
+
 ## Table
 | Header 1 | Header 2 |
 |----------|----------|
 | Row 1    | Data 1   |
 | Row 2    | Data 2   |
 | Row 3    | Data 3   |
+
+
+
 
 ## Other
 

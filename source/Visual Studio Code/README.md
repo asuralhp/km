@@ -20,7 +20,7 @@
 - mhutchie.git-graph
 - GitHub.copilot
 - GitHub.copilot-chat
-
+- bierner.markdown-preview-github-styles
 ## Setting
 
 - "files.autoSave": "afterDelay"
