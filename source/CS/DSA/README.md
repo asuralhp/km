@@ -569,6 +569,7 @@
   - expressions decision 
   - processes searching
 - Traversal 
+  - ![OrderTrick](static/OrderTrick.png)
   - In-Order : Produces a sorted order of values.
   - Pre-Order : Useful for copying the tree.
   - Post-Order : Useful for deleting the tree.

@@ -9,8 +9,10 @@
 
 - Split To  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd><-</kbd> /<kbd>-></kbd>
   - MacOS : <kbd>CMD</kbd> + <kbd>\</kbd> 
-- Move To <kbd>Alt</kbd> + <kbd><-</kbd> / <kbd>-></kbd>
-    - MacOS : <kbd>CMD</kbd> / + <kbd>Ctrl</kbd> + <kbd>-></kbd> / <kbd><-</kbd>
+- Move To : <kbd>Alt</kbd> + <kbd><-</kbd> / <kbd>-></kbd>
+    - MacOS : <kbd>CMD</kbd>  + <kbd>Ctrl</kbd> + <kbd>-></kbd> / <kbd><-</kbd>
+- Focus To Group :
+    - MacOS : <kbd>CMD</kbd>  + <kbd>Opt</kbd> + <kbd>-></kbd> / <kbd><-</kbd>
 - Extend Selection : <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>-></kbd> / <kbd><-</kbd>
   - MacOS : <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>CMD</kbd> + <kbd>-></kbd> / <kbd><-</kbd>
 - Format Document <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd>

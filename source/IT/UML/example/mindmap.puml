@@ -1,0 +1,10 @@
+@startmindmap
+* Root
+** Branch 1
+*** Sub-branch 1.1
+*** Sub-branch 1.2
+** Branch 2
+*** Sub-branch 2.1
+**** Sub-branch 2.1.1
+*** Sub-branch 2.2
+@endmindmap

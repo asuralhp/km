@@ -24,11 +24,11 @@
   - [BlackHole](https://github.com/ExistentialAudio/BlackHole) : recording internal audio
   - Audio MIDI Setup -> 
     - Add -> Multi-Output Device -> Tick all output -> check BlackHole 2ch Drift Correction (maybe)
-    - Add -> Aggregate Device -> Tick all input -> check BlackHole 2ch Drift Correction (maybe)
-  - Preference -> Sound -> Output -> Multi-Ouput
-  - Record -> Options -> Aggregate
-  - Tips : Zoom -> Input:Airpod, Output:Airpod
-
+    - Add -> Aggregate Device(Multi-Input) -> Check BlackHole + Airpods Out -> check BlackHole 2ch Drift Correction (maybe)
+  - Preference -> Sound -> Input -> Multi-Input
+  - Record -> Options -> Multi-Input
+  - Tips : Zoom -> Speaker:Multi Output, Microphone:Airpod
+  - How it may works: Sound -> BlackHole -> Output ->  ->Multi Input
 
 ## HotKeys
   - Show Hidden <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>

@@ -1,0 +1,4 @@
+@startuml Test
+    title Hello World Diagram
+    :Hello, World!;
+@enduml
