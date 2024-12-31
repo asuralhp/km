@@ -1,0 +1,45 @@
+@startuml
+skinparam rectangle {
+  BackgroundColor #F0F0F0
+  BorderColor #333333
+  FontSize 12
+}
+
+rectangle "Data Center" as dc {
+  
+  rectangle "Compute Layer" as compute {
+    rectangle "Web Servers" as web
+    rectangle "Application Servers" as app
+    rectangle "Database Servers" as db
+  }
+
+  rectangle "Storage Layer" as storage {
+    rectangle "NAS (Network Attached Storage)" as nas
+    rectangle "SAN (Storage Area Network)" as san
+  }
+
+  rectangle "Networking Layer" as networking {
+    rectangle "Core Switches" as core_switch
+    rectangle "Edge Switches" as edge_switch
+    rectangle "Firewalls" as firewalls
+    rectangle "Load Balancers" as load_balancers
+  }
+
+  rectangle "Management Layer" as management {
+    rectangle "Monitoring Tools" as monitoring
+    rectangle "Orchestration Tools" as orchestration
+    rectangle "Backup Solutions" as backup
+  }
+
+}
+
+compute --> networking : "Connects to"
+storage --> networking : "Connects to"
+management --> compute : "Monitors & Manages"
+management --> storage : "Manages"
+networking --> core_switch : "Interconnects"
+core_switch --> edge_switch : "Connects"
+edge_switch --> load_balancers : "Distributes Traffic"
+core_switch --> firewalls : "Secures Traffic"
+
+@enduml

@@ -1,0 +1,65 @@
+@startuml
+package "Git Architecture" {
+    [Repository] as repo
+    [Index] as index
+    [Working Directory] as wd
+    [Objects Database] as objects
+    [Refs Database] as refs
+    [Configuration] as config
+    [Hooks] as hooks
+    [Submodules] as submodules
+
+    repo --> index : "stages changes"
+    index --> wd : "tracks working directory"
+    wd --> index : "adds changes"
+    
+    repo --> objects : "stores objects"
+    repo --> refs : "stores references"
+    repo --> config : "configuration settings"
+    repo --> hooks : "custom scripts"
+    repo --> submodules : "handles submodules"
+}
+
+note right of repo
+  The repository is the core structure that
+  contains all data and history.
+end note
+
+note right of index
+  The index is a staging area where
+  changes are prepared for commit.
+end note
+
+note right of wd
+  The working directory is where files
+  are edited and managed.
+end note
+
+note right of objects
+  The objects database stores all data
+  as loose or packed objects.
+end note
+
+note right of refs
+  The refs database keeps track of branches,
+  tags, and other pointers to commits.
+end note
+
+note right of config
+  Configuration settings manage user preferences,
+  repository settings, and project-specific options.
+end note
+
+note right of hooks
+  Hooks are custom scripts that can be triggered
+  before or after certain Git commands, allowing
+  for automation and enforcement of policies.
+end note
+
+note right of submodules
+  Submodules allow you to include and manage
+  external repositories within a Git repository,
+  enabling better modularity.
+end note
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+package "User Management" {
+    [User] 
+    [UserController] 
+    [UserService] 
+}
+
+package "Product Management" {
+    [Product]
+    [ProductController]
+    [ProductService]
+}
+
+package "Order Management" {
+    [Order]
+    [OrderController]
+    [OrderService]
+}
+
+[UserController] --> [UserService] : uses
+[ProductController] --> [ProductService] : uses
+[OrderController] --> [OrderService] : uses
+
+[UserService] --> [ProductService] : interacts
+[OrderService] --> [ProductService] : interacts
+@enduml
