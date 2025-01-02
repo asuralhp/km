@@ -1,9 +1,25 @@
 # Visual Studio Code
 
-
 ## Install
 - Windows `winget install --id=Microsoft.VisualStudioCode  -e`
 - MacOS `brew install --cask visual-studio-code`
+
+## Import
+-  C/C++ -> General -> Additional Include Directories
+- Linker -> General -> Additional Library Directories 
+- Linker -> Input -> Additional Dependencies (.lib)
+-  VC++ :
+   -  Include Directories
+   -  Library Directories
+- [VC++ vs C++ Directories properties](https://stackoverflow.com/questions/6883276/what-is-the-difference-between-include-directories-and-additional-include-dir)
+  - VC++ : Machine Level
+  - C++ : Project Level
+## Output
+- Directory : Property -> General -> Output Directory
+
+
+
+
 ## Editor
 - Palette <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 
@@ -23,6 +39,10 @@
 - GitHub.copilot
 - GitHub.copilot-chat
 - bierner.markdown-preview-github-styles
+
+### Install Offline
+- Download from extension page
+- Extension Tab -> Click ... -> Install from VSIX
 ## Setting
 
 - "files.autoSave": "afterDelay"

@@ -1,0 +1,43 @@
+@startuml
+title Flappy Bird Game Design
+
+  class Game {
+      +start()
+      +update()
+      +render()
+      +end()
+      +spawnObstacle()
+      +trackScore()
+      
+      -Player player
+      -Obstacle[] obstacles
+      -ScoreManager scoreManager
+  }
+
+  class Player {
+      +jump()
+      +fall()
+      +controlInput()
+      +score
+  }
+
+  class Obstacle {
+      +position
+      +move()
+      +reset()
+      +isColliding()
+  }
+
+  class ScoreManager {
+      +increaseScore()
+      +resetScore()
+      +getScore()
+  }
+
+  Game --> Player : contains >
+  Game --> Obstacle : contains >
+  Game --> ScoreManager : contains >
+
+
+
+@enduml

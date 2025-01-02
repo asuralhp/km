@@ -12,3 +12,12 @@
 
 ## To Do
 - [ ] Job - Data
+
+
+
+## Task
+
+### Accelerated Reading
+
+
+### Progressive Developemnt

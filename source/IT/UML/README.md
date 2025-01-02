@@ -9,10 +9,13 @@
   - `echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> /Users/leolau/.zshrc`
 - Close and Open VSCode
 - Open Preview on .puml file : <kbd>Opt</kbd> + <kbd>D</kbd> 
+- (Optional) Dot Tool from Graphviz : `brew install graphviz`
 
 ## Syntax
 
 PlantUML uses a simple and intuitive syntax to create various types of diagrams. Here's a brief introduction to the basic syntax for some common diagram types:
+
+## PlantUML
 
 ### 1. **Sequence Diagram**
 
@@ -84,3 +87,5 @@ stop
 
 ## Tips
 Init : `example/hello_world.puml`
+
+

@@ -9,3 +9,4 @@
   - generate report : `sh execute.sh -p`
   - review : `report/find.csv`
   - execute target :`sh execute.sh -e`
+- initialize folder : `sh ./auto/init_folder.sh -n DiffAlgo -p ./source/CS/DSA`

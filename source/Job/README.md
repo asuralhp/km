@@ -1,6 +1,18 @@
 # Job
 
+## Target
+
+
+
+### Eclipse Trading - DOE
+
+### Bloomberg - DA
+
+### Sandbox VR - SE
+
 ## Field
+
+
 ### Data 
 ![alt text](static/TypesOfDataPro.png)
 
