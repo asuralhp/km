@@ -24,7 +24,7 @@
 - Palette <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 
 - Split To  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd><-</kbd> /<kbd>-></kbd>
-  - MacOS : <kbd>CMD</kbd> + <kbd>\</kbd> 
+  - MacOS : <kbd>CMD</kbd> + <kbd>\\</kbd> 
 - Move To : <kbd>Alt</kbd> + <kbd><-</kbd> / <kbd>-></kbd>
     - MacOS : <kbd>CMD</kbd>  + <kbd>Ctrl</kbd> + <kbd>-></kbd> / <kbd><-</kbd>
 - Focus To Group :
